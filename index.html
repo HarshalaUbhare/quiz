@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz application</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemon&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="main">
+        <div id="box">
+        <h2 class="ques"> question 1st </h2>
+        
+          <div class="row">
+            <input type="radio" value="a" id="option1" name="option" class="options">
+            <label for="option1">option 1</label>
+        </div>
+        <div class="row">
+            <input type="radio" value="b" id="option2" name="option" class="options">
+            <label for="option2">option 2</label>
+        </div>
+        <div class="row">
+            <input type="radio" value="c" id="option3" name="option" class="options"> 
+            <label for="option3">option 3</label>
+        </div>
+        <div class="row">
+            <input type="radio" value="d" id="option4" name="option" class="options">
+            <label for="option4">option 4</label>
+        </div>
+        <button class="btn" type="submit" onclick="submitQuiz()"> submit</button>
+        </div>     
+    </div>
+    
+</body>
+</html>
